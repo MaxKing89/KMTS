@@ -7,9 +7,27 @@ div#bs-example-navbar-collapse-1 {
 }
 
 #title {
-    padding-bottom: 25px;
+    padding-top: 140px;
+    padding-bottom: 30px;
 }
 
 .footer {
   padding-top: 25px;   
+}
+
+
+iframe {
+ border: none;
+ 
+}
+
+.iframe-top-nav {
+ border: none;
+ height: 125px;
+}
+
+.iframe-footer {
+ border: none;
+ height: 50px;
+
 }
