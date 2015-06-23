@@ -23,7 +23,7 @@ iframe {
 
 .iframe-top-nav {
  border: none;
- height: 125px;
+ height: auto;
 }
 
 .iframe-footer {
