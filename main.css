@@ -52,7 +52,13 @@ iframe {
 }
 
 .container-head {
-    text-align: center;
+    color: firebrick;
+    font-size: 30px;
+    
+}
+
+.container-body {
+   
     font-size: 30px;
     
 }
