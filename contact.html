@@ -46,18 +46,58 @@
     </div>
     
 <!-- Content --> 
-<div class="container-contact">   
-
-    <form class="contact-form">
-      <h2 class="contact-form">Email Address</h2>
-            <label for="InputEmail" class="sr-only">Email Address</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>        
-
+<form>   
+    <div class ="row">
+        <div class="container col-md-6">   
+            <div class="input-group">
+                <h2 class="contact-form">First Name</h2>
+                    <label for="FirstName" class="sr-only">First Name</label>
+                    <input type="text" id="firstName" class="form-control" placeholder="First Name" required autofocus>  
+            </div>
+        </div>
         
-        <button type="submit" class="btn btn-default">Submit</button>
+        <div class="container col-md-6">   
+            <div class="input-group">
+                <h2 class="contact-form">Last Name</h2>
+                    <label for="LastName" class="sr-only">Last Name</label>
+                    <input type="text" id="lastName" class="form-control" placeholder="Last Name" required>
+            </div>
+        </div>
         
-    </form> 
-</div>   
+        <div class="container col-md-6">   
+            <div class="input-group">    
+                <h2 class="contact-form">Email Address</h2>
+                    <label for="InputEmail" class="sr-only">Email Address</label>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required> 
+            </div>
+        </div>
+        
+        <div class="container col-md-6">   
+            <div class="input-group">  
+                <h2 class="contact-form">Phone Number</h2>
+                    <label for="PhoneNumber" class="sr-only">Phone Number</label>
+                    <input type="number" id="phoneNumber" class="form-control" placeholder="Phone Number" required>  
+            </div>
+        </div>
+        
+        <div class="container col-md-12">   
+            <div class="input-group">
+                <h2 class="contact-form">Comment</h2>     
+                <textarea class="form-control textarea" rows="5" id="comment"></textarea>
+            </div>
+        </div>
+        
+        <div class="container col-xs-12 col-md-6">
+            <span class="btn btn-default btn-file btn-attach">
+                Attach<input type="file">
+            </span>
+        </div>
+        
+        <div class="container col-xs-12 col-md-6">
+            <button type="submit" class="btn btn-lg btn-default btn-submit btn-primary">SUBMIT</button>
+        </div>
+    </div>
+</form> 
    
     <!-- Footer -->
     <div id="footer"></div>

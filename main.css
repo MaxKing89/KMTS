@@ -33,7 +33,7 @@ iframe {
 }
 
 .jumbotron-container {
- padding-top: 125px;   
+ padding-top: 150px;   
 }
 
 .testimonials blockquote {
@@ -47,9 +47,6 @@ iframe {
     
 }
 
-.marketing-content {
-  ;  
-}
 
 .container-head {
     color: firebrick;
@@ -62,3 +59,44 @@ iframe {
     font-size: 30px;
     
 }
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.textarea{
+ width: 100%;   
+}
+
+.input-group{
+ width: 100%;   
+}
+
+
+    
+ .row{padding:15px; margin:15px;}   
+    
+.btn-submit{width: 50%; margin-top: 35px; margin-left: 0px;}
+
+.btn-attach{width: 25%; margin-top: 35px; margin-left: 0px;}
+    
+.blog-header{padding-top: 175px;}
+.blog-search{margin-top: 175px;}
+
+.marketing-content h3{color:firebrick;text-align: center;}
