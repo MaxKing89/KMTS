@@ -1,3 +1,10 @@
+/* Header */
+.navbar-brand>img.mobile-logo{display:block;}
+.navbar-brand>img.desktop-logo{display:none;}
+
+
+
+
 .navbar-brand {
 height: auto;
 }
@@ -6,34 +13,20 @@ div#bs-example-navbar-collapse-1 {
   padding-top: 2.5%;
 }
 
+/* Body */
+
 #title {
-    padding-top: 140px;
+    margin-top: 100px;
     padding-bottom: 30px;
 }
 
-.footer {
-  padding-top: 25px;   
-}
 
 
-iframe {
- border: none;
- 
-}
-
-.iframe-top-nav {
- border: none;
- height: auto;
-}
-
-.iframe-footer {
- border: none;
- height: 50px;
-
-}
 
 .jumbotron-container {
- padding-top: 150px;   
+ margin-top: 80px;
+ padding-bottom: 0px;
+ padding-top: 5px;
 }
 
 .testimonials blockquote {
@@ -90,18 +83,34 @@ iframe {
 
 
     
- .row{padding:15px; margin:15px;}   
+.row{padding:15px; margin:15px;} 
+.row-head{padding:-12.5px; margin:-12.5px;} 
     
 .btn-submit{width: 50%; margin-top: 35px; margin-left: 0px;}
 
 .btn-attach{width: 25%; margin-top: 35px; margin-left: 0px;}
     
-.blog-header{padding-top: 175px;}
+.blog-header{margin-top: 75px;}
 .blog-search{margin-top: 175px;}
 
 .marketing-content h3{color:firebrick;text-align: center;}
 
 
+    
+}
 
 .hp-car-3 h1{color:black;}
 .hp-car-3 p{color:black;}
+
+/* Footer */
+
+.footer {
+  padding-top: 25px;   
+}
+
+/* Media */
+@media screen and (min-width: 992px){
+    
+.navbar-brand>img.mobile-logo{display:none;}
+.navbar-brand>img.desktop-logo{display:block;}
+#title {margin-top: 140px;}
